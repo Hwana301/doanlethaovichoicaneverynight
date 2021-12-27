@@ -1,0 +1,316 @@
+.scale{
+
+}
+.scale:hover{
+    color: #fae8b3;
+    transform: scale(1.2);
+}
+
+.tranlate{
+
+}
+
+.translate:hover{
+    transform: translateY(-20px);
+}
+
+.rolate{
+
+}
+.rolate:hover{
+    transform: rotatex(90deg);
+}
+
+.rolate2{
+    transform:rotate(270deg);
+}
+
+
+.pen{
+    animation-name: xoay;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes xoay{
+        from { transform: rotate3d(0);}
+        to { transform: rotate3d(0, 2, 0, 360deg);}
+    
+}
+
+.pen2{
+    animation-name: chuyen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes chuyen{
+        0% { 
+            transform: translateY(-30px);
+        }
+        100% { 
+            transform: translateY(30px);
+        }
+    
+    }
+
+.quay1{
+    animation-name: anima-quay;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes anima-quay{
+   from{
+       transform: rotate(0);
+       
+   }
+
+   to{
+       transform: rotate(360deg);
+   }
+}
+
+.quay2{
+    animation-name: anima-quay-2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes anima-quay-2{
+   from{
+       transform: rotate(0);
+       
+   }
+
+   to{
+       transform: rotate(720deg);
+   }
+}
+
+.cloud-0{
+    animation-name: may-0;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes may-0{
+        0% { 
+            transform: translateY(0);
+        }
+        100% { 
+            transform: translateY(30px);
+        }
+    
+    }
+
+    .cloud-1{
+        animation-name: may-1;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+    
+    }
+    
+    @keyframes may-1{
+            0% { 
+                transform: translate(0,0);
+            }
+
+            15%{
+                transform: translate(30px,30px);
+
+            }
+
+            40%{
+                transform: translate(-35px,-30px);
+            }
+
+            65%{
+                transform: translate(-50px,40px);
+            }
+
+            100% { 
+                transform: translate(55px,50px);
+            }
+        
+        }
+
+        .cloud-2{
+            animation-name: may-2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+        
+        }
+        
+        @keyframes may-2{
+                0% { 
+                    transform: translateY(0);
+                }
+                100% { 
+                    transform: translateY(25px);
+                }
+            
+            }
+
+
+                .cloud-5{
+                    animation-name: may-5;
+                    animation-duration: 30s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                
+                }
+                
+                @keyframes may-5{
+                        0% { 
+                            transform: translateX(-1800px);
+                        }
+    
+                        100% { 
+                            transform: translateX(400px);
+                        }
+                    
+                    }
+
+                    .img-icon-1{
+   
+                        transform: rotate(0deg);
+                     }
+                     
+                     .img-icon-1:hover{
+                             animation-name: anima-img-icon;
+                             animation-duration: 5s;
+                             animation-iteration-count: infinite;
+                             animation-timing-function: linear;
+                     }
+                         
+                         @keyframes anima-img-icon{
+                            from{
+                                transform: rotate(0);
+                                
+                            }
+                         
+                            to{
+                                transform: rotate(45deg);
+                            }
+                         }
+                     
+                         .img-icon-2{
+                        
+                             transform: rotate(45deg);
+                          }
+                     
+                          .img-icon-2:hover{
+                             animation-name: anima-img-icon-2;
+                             animation-duration: 6s;
+                             animation-iteration-count: infinite;
+                             animation-timing-function: linear;
+                     }
+                         
+                         @keyframes anima-img-icon-2{
+                            from{
+                                transform: rotate(45deg);
+                                
+                            }
+                         
+                            to{
+                                transform: rotate(90deg);
+                            }
+                         }
+                     
+                         .img-icon-3{
+                        
+                             transform: rotate(90deg);
+                          }
+                     
+                          .img-icon-3:hover{
+                             animation-name: anima-img-icon-3;
+                             animation-duration: 4s;
+                             animation-iteration-count: infinite;
+                             animation-timing-function: linear;
+                     }
+                         
+                         @keyframes anima-img-icon-3{
+                            from{
+                                transform: rotate(90deg);
+                                
+                            }
+                         
+                            to{
+                                transform: rotate(135deg);
+                            }
+                         }
+                     
+                         .img-icon-4{
+                        
+                             transform: rotate(135deg);
+                          }
+                     
+                          .img-icon-4:hover{
+                             animation-name: anima-img-icon-4;
+                             animation-duration: 4s;
+                             animation-iteration-count: infinite;
+                             animation-timing-function: linear;
+                     }
+                         
+                         @keyframes anima-img-icon-4{
+                            from{
+                                transform: rotate(135deg);
+                                
+                            }
+                         
+                            to{
+                                transform: rotate(180deg);
+                            }
+                         }
+
+                         .cloud-7{
+                            animation-name: may-7;
+                            animation-duration: 10s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                            animation-direction: alternate-reverse;
+                        
+                        }
+                        
+                        @keyframes may-7{
+                                0% { 
+                                    transform: translate(0,0);
+                                }
+                    
+                                15%{
+                                    transform: translate(5px,5px);
+                    
+                                }
+                    
+                                40%{
+                                    transform: translate(-15px,-10px);
+                                }
+                    
+                                65%{
+                                    transform: translate(-5px,5px);
+                                }
+                    
+                                100% { 
+                                    transform: translate(15px,10px);
+                                }
+                            
+                            }
+
+                     

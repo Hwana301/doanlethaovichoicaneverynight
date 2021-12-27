@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #111;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cb9700;
+  }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+    line-height: 2rem;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: url('./IMG/cursor/1.gif'), auto;
+}
+    
+
+a{
+    cursor: url('./IMG/cursor/ezgif.com-gif-maker.gif'), auto;
+
+}
+
+a:hover{
+    cursor: url('./IMG/cursor/ezgif.com-gif-maker.gif'), auto;
+
+}
+
+button:hover{
+    cursor: url('./IMG/cursor/ezgif.com-gif-maker.gif'), auto;
+  }
+    
+
+section{
+    background-color: lightgray;
+}
+    
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./IMG/bg-may.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.container{
+    background-color: #111;
+    width: 1200px;
+    margin: 0 auto;
+    color: white;           
+
+}
+
+
+.bg-white{
+    background-color: white !important;
+}
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+.bg-black{
+    background-color: #111 !important;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 4rem;
+    z-index: 100 ;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 3rem;
+    z-index: 100 ;
+}
+
+
+
+.img-1{
+    width: 50px;
+    z-index: 200;
+}
+
+.translate-moon1{
+    transform: translatey(30px);
+}
+
+.translate-moon2{
+    transform: translatey(64px);
+    
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.static{
+    position: static;
+}
+
+.vujahday{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    margin-top: 32px;
+    line-height: 3rem;
+    z-index: 100;
+}
+
+.text-yl{
+    color: #cb9700   ;
+}
+
+.text-black{
+    color: #111;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu ul>li{
+    padding-left: 32px;
+}
+
+.menu ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #cb9700;
+
+}
+
+.logo-m{
+    position: relative;
+    margin-top: -40px;
+    z-index: 100;
+}
+
+.capslock{
+    text-transform: uppercase;
+}
+
+.spacing {
+    letter-spacing: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.icon{
+    width: 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.rolate3d{
+    transform: rotate3d(0, 2, 0, 360deg);
+}
+
+
+.box-img{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+}
+.img{
+ background-size: cover;
+ background-position: -40px 0;
+ z-index: 100;
+
+}
+
+.button{
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #cb9700;
+    border: 2px solid #cb9700
+}
+
+.box-music{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #cb9700;
+    margin-top: 20px;
+    margin-left: 16px;
+    
+}
+
+/* .m6{
+    z-index: 100;
+    width: 40px;
+} 
+*/
+
+.music{
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+
+.box-cloud-1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(-30px);
+    background-image: url(./IMG/May-6.png);
+    background-size: cover;
+    background-position: -100px -50px;
+    opacity: 0.2;
+}
+
+.box-cloud-2{
+    height: 300px;
+    width: 700px;
+    transform: translateY(-50px);
+    opacity: 0.5;
+}
+
+.box-cloud-3{
+   width: 900px;
+   height: 300px;
+    background-image: url(./IMG/may-13.png);
+    background-size: 100%;
+    background-position: center;
+    transform: translateY(70px); 
+    background-repeat: no-repeat;
+    opacity: 1
+}
+
+.box-cloud-4{
+    width: 500px;
+    height: 300px;
+   transform: translateY(80px);
+    background-image: url(./IMG/May-7.png);
+    background-size: 100%;
+    background-position: 50px 5px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.box-cloud-5{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(./IMG/May-15.png);
+    background-size: 120%;
+    background-position: 50px -150px;
+    background-repeat: no-repeat;
+}
+
+.box-cloud-6{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background-image: url(./IMG/may-14.png);
+    background-size: 80%;
+    background-position: -50px 220px;
+    background-repeat: no-repeat;
+}
+
+.box-cloud-7{
+    width: 1200px;
+    height: 250px;
+    overflow: hidden;
+    background-image: url(./IMG/may-16.png);
+    background-size: 120%;
+    background-position: -30px;
+    opacity: 0.3;
+}
+
+.box-cloud-8{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateY(-70px);
+    background-image: url(./IMG/may-18.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-cloud-9{
+    width: 1200px;
+    height: 100vh;
+    overflow: hidden;
+    transform: translateY(-70px);
+    background-image: url(./IMG/may-17.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 140px;
+    opacity: 0.5;
+}
+
+.box-cloud-10{
+    width: 1200px;
+    height: 50vh;
+    overflow: hidden;
+    transform: translateY(-70px);
+    background-image: url(./IMG/may-20.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -30px;
+    opacity: 0.5;
+}
+
+
+
+
+.box-icon-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(./IMG/adobe-illustrator-seeklogo-01.png);
+    background-size: cover;
+
+}
+
+.box-icon-2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(./IMG/photoshop-2020-seeklogo_Mesa\ de\ trabajo\ 1.png);
+    background-size: cover;
+
+}
+
+.box-icon-3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(./IMG/clip-studio-paint-logo-vector-01.png);
+    background-size: cover;
+
+}
+
+.box-icon-4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(./IMG/icons8-ibis-paint-x-144.png);
+    background-size: cover;
+
+}
+
+
+
+.img-icon-1{
+   
+   transform: rotate(0deg);
+}
+
+.img-icon-1:hover{
+        animation-name: anima-img-icon;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+    
+    @keyframes anima-img-icon{
+       from{
+           transform: rotate(0);
+           
+       }
+    
+       to{
+           transform: rotate(45deg);
+       }
+    }
+
+    .img-icon-2{
+   
+        transform: rotate(45deg);
+     }
+
+     .img-icon-2:hover{
+        animation-name: anima-img-icon-2;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+    
+    @keyframes anima-img-icon-2{
+       from{
+           transform: rotate(45deg);
+           
+       }
+    
+       to{
+           transform: rotate(90deg);
+       }
+    }
+
+    .img-icon-3{
+   
+        transform: rotate(90deg);
+     }
+
+     .img-icon-3:hover{
+        animation-name: anima-img-icon-3;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+    
+    @keyframes anima-img-icon-3{
+       from{
+           transform: rotate(90deg);
+           
+       }
+    
+       to{
+           transform: rotate(135deg);
+       }
+    }
+
+    .img-icon-4{
+   
+        transform: rotate(135deg);
+     }
+
+     .img-icon-4:hover{
+        animation-name: anima-img-icon-4;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+    
+    @keyframes anima-img-icon-4{
+       from{
+           transform: rotate(135deg);
+           
+       }
+    
+       to{
+           transform: rotate(180deg);
+       }
+    }
+
+ 
+.box-icon-ft-1{
+    width: 30px;
+    height: 30px;
+    background-image: url(./IMG/adobe-illustrator-seeklogo-01.png);
+    background-size: cover;
+}
+
+.box-icon-ft-2{
+    width: 30px;
+    height: 30px;
+    background-image: url(./IMG/photoshop-2020-seeklogo_Mesa\ de\ trabajo\ 1.png);
+    background-size: cover;
+}
+.box-icon-ft-3{
+    width: 30px;
+    height: 30px;
+    background-image: url(./IMG/clip-studio-paint-logo-vector-01.png);
+    background-size: cover;
+}
+.box-icon-ft-4{
+    width: 30px;
+    height: 30px;
+    background-image: url(./IMG/icons8-ibis-paint-x-144.png);
+    background-size: cover;
+}
